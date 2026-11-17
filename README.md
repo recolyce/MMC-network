@@ -2,13 +2,13 @@
 
 Morphology–molecule coupling (MMC) learns a pan-cancer map from pathology images to spatial molecular profiles.
 
-![MMC method](figures/MMC.png)
+![MMC method](figures/MMC.jpg)
 
 The figure summarizes the method. A morphology prior and a gene prior are coupled on tissue-specific spatial data, and the network is read out as MPG and MRM profiles.
 
 These scripts cover construction from the prior networks through module definition. More code and results will be released soon.
 
-Paths in the scripts are placeholders. Replace them with local data paths before running.
+<!-- Paths in the scripts are placeholders. Replace them with local data paths before running.
 
 ## Scripts
 
@@ -34,4 +34,4 @@ python scripts/05_call_mrm.py --prefix Breast --dataset hest1k --weight_mode uni
 python scripts/06_define_modules.py --prefix Breast --dataset hest1k
 ```
 
-Step 02 needs the STRING identifier map for that organ and the human protein-link table.
+Step 02 needs the STRING identifier map for that organ and the human protein-link table. -->
